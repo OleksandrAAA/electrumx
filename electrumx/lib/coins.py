@@ -4042,8 +4042,8 @@ class Chesscoin(ScryptMixin, Coin):
     WIF_BYTE = bytes.fromhex("9C")
     GENESIS_HASH = ('0000048f94311e912681a9a25eb553e4'
                     'a4d1703689c5f9a264c7b07245c7ff1f')
-    TX_COUNT = 4415648
-    TX_COUNT_HEIGHT = 2153484
+    TX_COUNT = 4652285
+    TX_COUNT_HEIGHT = 2271357
     TX_PER_BLOCK = 2
     RPC_PORT = 8324
     REORG_LIMIT = 500
