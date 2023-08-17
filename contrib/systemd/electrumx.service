@@ -1,0 +1,13 @@
+[Unit]
+Description=Electrumx
+After=network.target
+
+[Service]
+EnvironmentFile=/etc/electrumx.conf
+ExecStart=/home/ubuntu/source/electrumx/electrumx_server
+User=ubuntu
+LimitNOFILE=8192
+TimeoutStopSec=30min
+
+[Install]
+WantedBy=multi-user.target
